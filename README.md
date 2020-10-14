@@ -3,7 +3,6 @@
 
 [![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/yeast-gem)
 [![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})
-[![Gitter chat](https://badges.gitter.im/{{organization or username}}/{{repository name}}.svg)](https://gitter.im/{{organization or username}}/{{repository name}})
 
 
 #### Brief Model Description
@@ -20,9 +19,11 @@ Manuscript under preparation
 **Utilisation:** multi-omics integrative analysis, predictive simulation
 **Field:** metabolic-network reconstruction  
 **Type of Model:** reconstruction, curated  
-**Model Source:** Human-GEM
-**Omic Source:** genomics, metabolomics  
-**Taxonomy:** _Mus musculus_  
+**Model source:** [Human-GEM](https://doi.org/10.1126/scisignal.aaz1482)   
+**Omic source:** genomics; metabolomics   
+**Taxonomic name:** _Mus musculus_  
+**Taxonomy ID:** [10090](https://identifiers.org/taxonomy:10090)  
+**Genome ID:** [GCA_000001635.8](https://identifiers.org/insdc.gca:GCA_000001635.8)  
 **Metabolic System:** general metabolism  
 **Tissue:**  
 **Bioreactor:**    
