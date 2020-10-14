@@ -1,11 +1,5 @@
-> Please read the paragraph below and delete it:  
-This is the `README.md` template provided by [standard-GEM](https://github.com/SysBioChalmers/standard-GEM).
-Blanks are indicated by `{{ }}`. Below are examples of blanks used throughout this file:  
-`{{organization or username}}` is the organization name or username for this GitHub repository, eg. `SysBioChalmers`  
-`{{repository name}}` is the name of this GitHub repository, eg. `yeast-GEM`  
 
-
-## {{repository name}}: {{repository description}}
+# Mouse-GEM: The generic genome-scale metabolic model of _Mus musculus_
 
 [![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/yeast-gem)
 [![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})
@@ -14,16 +8,12 @@ Blanks are indicated by `{{ }}`. Below are examples of blanks used throughout th
 
 #### Brief Model Description
 
-{{ fill in a short description or the paper abstract }}
+This repository contains the latest version of Mouse-GEM, a mouse genome-scale metabolic model.
 
 
 #### Citation
 
-{{ provide the citation once available, for example:
-  > Lu, H., Li, F., Sánchez, B.J. et al (2019). A consensus S. cerevisiae metabolic model Yeast8 and its ecosystem for comprehensively probing cellular metabolism. Nat Commun 10, 3586 [doi:10.1038/s41467-019-11581-3](https://doi.org/10.1038/s41467-019-11581-3)
-
-}}
-
+Manuscript under preparation
 
 #### Model Keywords
 
