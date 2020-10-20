@@ -1,7 +1,7 @@
 
 # Mouse-GEM: The generic genome-scale metabolic model of _Mus musculus_
 
-[![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/yeast-gem)
+[![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/mouse-gem)
 [![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})
 
 
@@ -71,7 +71,7 @@ Manuscript under preparation
 
 ## Websites
 
-- [Metabolic Atlas](https://metabolicatlas.org/) enables visualization and exploration of Human-GEM content.
+- [Metabolic Atlas](https://metabolicatlas.org/) enables visualization and exploration of Mouse-GEM content.
 
 
 ### Contributing
