@@ -53,7 +53,7 @@ Manuscript under preparation
 
 
 ### Installation Instructions
-* Clone the [master branch](https://github.com/SysBioChalmers/Human-GEM/tree/master) of this repository, or [download the latest release](https://github.com/SysBioChalmers/Human-GEM/releases/latest).
+* Clone the [master branch](https://github.com/SysBioChalmers/Mouse-GEM/tree/master) of this repository, or [download the latest release](https://github.com/SysBioChalmers/Mouse-GEM/releases/latest).
 * Add the directory to your MATLAB path (instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com)).
 
 
@@ -76,4 +76,4 @@ Manuscript under preparation
 
 ### Contributing
 
-Contributions are always welcome! Please read the [contributing guideline](.github/CONTRIBUTING.md) to get started.
+Contributions are always welcome! Please read the [contributing guidelines](.github/CONTRIBUTING.md) to get started.
