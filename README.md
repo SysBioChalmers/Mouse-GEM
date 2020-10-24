@@ -36,7 +36,7 @@ Manuscript under preparation
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-|_Mus musculus_ |   Human-GEM |    |  |  |
+|_Mus musculus_ |   Human-GEM |  13093  | 8404 | 3510 |
 
 
 ## Installation
