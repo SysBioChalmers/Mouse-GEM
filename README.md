@@ -1,57 +1,79 @@
-> Please read the paragraph below and delete it:  
-This is the `README.md` template provided by [standard-GEM](https://github.com/SysBioChalmers/standard-GEM).
-Blanks are indicated by `{{ }}`. Below are examples of blanks used throughout this file:  
-`{{organization or username}}` is the organization name or username for this GitHub repository, eg. `SysBioChalmers`  
-`{{repository name}}` is the name of this GitHub repository, eg. `yeast-GEM`  
 
+# Mouse-GEM: The generic genome-scale metabolic model of _Mus musculus_
 
-## {{repository name}}: {{repository description}}
-
-[![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/yeast-gem)
+[![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/mouse-gem)
 [![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})
-[![Gitter chat](https://badges.gitter.im/{{organization or username}}/{{repository name}}.svg)](https://gitter.im/{{organization or username}}/{{repository name}})
 
 
 #### Brief Model Description
 
-{{ fill in a short description or the paper abstract }}
+This repository contains the latest version of Mouse-GEM, a mouse genome-scale metabolic model.
 
 
 #### Citation
 
-{{ provide the citation once available, for example:
-  > Lu, H., Li, F., Sánchez, B.J. et al (2019). A consensus S. cerevisiae metabolic model Yeast8 and its ecosystem for comprehensively probing cellular metabolism. Nat Commun 10, 3586 [doi:10.1038/s41467-019-11581-3](https://doi.org/10.1038/s41467-019-11581-3)
-
-}}
-
+Manuscript under preparation
 
 #### Model Keywords
 
-**Utilisation:** experimental data reconstruction, multi-omics integrative analysis, _in silico_ strain design, model template  
+**Utilisation:** multi-omics integrative analysis, predictive simulation
 **Field:** metabolic-network reconstruction  
 **Type of Model:** reconstruction, curated  
-**Model Source:** YeastMetabolicNetwork  
-**Omic Source:** genomics, metabolomics  
-**Taxonomy:** _Saccharomyces cerevisiae_  
+**Model source:** [Human-GEM](https://doi.org/10.1126/scisignal.aaz1482)   
+**Omic source:** genomics; metabolomics   
+**Taxonomic name:** _Mus musculus_  
+**Taxonomy ID:** [10090](https://identifiers.org/taxonomy:10090)  
+**Genome ID:** [GCA_000001635.8](https://identifiers.org/insdc.gca:GCA_000001635.8)  
 **Metabolic System:** general metabolism  
 **Tissue:**  
 **Bioreactor:**    
 **Cell type:**  
 **Cell line:**  
-**Strain:** S288C  
-**Condition:** aerobic, glucose-limited, defined media  
+**Condition:** generic metabolism
 
 
-### Installation
+### Model Overview
 
-{{ Be mindful of users who do not have a typical background - provide a clear overview of the required software. Also, there might be different requirements for users and collaborators. }}
+|Taxonomy | Template Model | Reactions | Metabolites| Genes |
+| ------------- |:-------------:|:-------------:|:-------------:|:-----:|
+|_Mus musculus_ |   Human-GEM |    |  |  |
 
 
-### Usage
+## Installation
 
-{{ Describe how to load and save the model. }}
+### Required Software
+* A functional MATLAB installation (MATLAB 7.3 and higher).
+* The [RAVEN toolbox](https://github.com/SysBioChalmers/RAVEN).
+* The [COBRA toolbox](https://github.com/opencobra/cobratoolbox) (not necessary for most functionality).
+
+
+### Dependencies - Recommended Software
+* The libSBML MATLAB API (version [5.13.0](https://sourceforge.net/projects/sbml/files/libsbml/5.13.0/stable/MATLAB%20interface/) is recommended).
+* [Gurobi Optimizer](http://www.gurobi.com/registration/download-reg) for any simulations.
+
+
+### Installation Instructions
+* Clone the [master branch](https://github.com/SysBioChalmers/Mouse-GEM/tree/master) of this repository, or [download the latest release](https://github.com/SysBioChalmers/Mouse-GEM/releases/latest).
+* Add the directory to your MATLAB path (instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com)).
+
+
+## Usage
+
+#### Loading/saving the model
+
+`Mouse-GEM.mat` (Recommended if on `master` branch)
+* Load and save using the built-in MATLAB `load()` and `save()` functions.
+
+`Mouse-GEM.xml` (SBML format)
+* Load using the `importModel.m` function (from [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN))
+* Save using the `exportModel.m` function (from [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN))
+
+
+## Websites
+
+- [Metabolic Atlas](https://metabolicatlas.org/) enables visualization and exploration of Mouse-GEM content.
 
 
 ### Contributing
 
-Contributions are always welcome! Please read the [contributing guideline](.github/CONTRIBUTING.md) to get started.
+Contributions are always welcome! Please read the [contributing guidelines](.github/CONTRIBUTING.md) to get started.
