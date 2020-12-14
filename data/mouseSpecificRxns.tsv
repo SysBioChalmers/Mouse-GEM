@@ -9,3 +9,4 @@ rxns	equations	ub	lb	eccodes	subSystems	grRules	rxnReferences	rxnConfidenceScore
 "MA_20008"	"O2[r] + L-gulono-1,4-lactone[r] => H2O2[r] + ascorbate[r] + H+[r]"	1000	0	"1.1.3.8"	"Ascorbate and aldarate metabolism"	"Gulo"	"PMID:14962674"	4	"R10053"	"RXN-13689"	""	"MNXR116004"
 "MA_20009"	"O2[r] + L-gulono-1,4-lactone[r] => H2O2[r] + L-xylo-Hexulonolactone[r]"	1000	0	"1.1.3.8"	"Ascorbate and aldarate metabolism"	"Gulo"	""	2	"R03184"	"L-GULONOLACTONE-OXIDASE-RXN"	""	"MNXR140097"
 "MA_20010"	"PAPS[c] + aniline[c] => PAP[c] + Benzenamine sulfate[c] + H+[c]"	1000	0	"2.8.2.3"	"Amine sulfotransferase"	"Sult3a1"	""	2	"R01861"	""	""	"MNXR107208"
+"MA_20016"	"ascorbate[r] => ascorbate[c]"	1000	0	""	"Transport"	""	""	0	""	""	""	""
