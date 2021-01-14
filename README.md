@@ -1,8 +1,7 @@
 
 # Mouse-GEM: The generic genome-scale metabolic model of _Mus musculus_
 
-[![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/mouse-gem)
-[![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})
+[![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2FMouse-GEM.svg)](https://badge.fury.io/gh/sysbiochalmers%2FMouse-GEM)
 
 
 #### Brief Model Description
