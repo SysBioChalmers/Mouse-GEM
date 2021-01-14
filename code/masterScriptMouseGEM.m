@@ -68,7 +68,7 @@ rxnsToAdd.subSystems = cellfun(@(s) {{s}}, rxnsToAdd.subSystems);
 
 
 %% Gap-filling for biomass formation
-[mouseGEM, gapfillNetwork]=gapfill4Biomass(mouseGEM,ihuman);
+[mouseGEM, gapfillNetwork]=gapfill4EssentialTasks(mouseGEM,ihuman);
 % Added 0 reactions for gap-filling
 
 
