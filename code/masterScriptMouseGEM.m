@@ -3,7 +3,7 @@
 %
 %
 % PURPOSE: This script is for reconstruction of the Mouse-GEM, by using
-%          the Human-GEM as template and taking in account mouse-specific
+%          the Human-GEM as template and taking into account mouse-specific
 %          pathways/reactions.
 %
 %
@@ -37,7 +37,6 @@ ihuman.rxns(ind) = rxnAssoc.rxnMAID(ind);
 % get ortholog pairs from human to mouse
 mouseOrthologPairs = extractAllianceGenomeOrthologs('human2MouseOrthologs.json');
 mouseGEM = getModelFromOrthology(ihuman, mouseOrthologPairs);
-mouseGEM.id = 'Mouse-GEM';
 
 
 
@@ -68,9 +67,14 @@ rxnsToAdd.subSystems = cellfun(@(s) {{s}}, rxnsToAdd.subSystems);
 [mouseGEM, modelChanges] = addMetabolicNetwork(mouseGEM, rxnsToAdd, metsToAdd);
 
 
+%% Gap-filling for biomass formation
+[mouseGEM, gapfillNetwork]=gapfill4EssentialTasks(mouseGEM,ihuman);
+% Added 0 reactions for gap-filling
+
 
 %% Save the model into mat, yml, and xml
 
+mouseGEM.id = 'Mouse-GEM';
 save('../model/Mouse-GEM.mat', 'mouseGEM');
 writeHumanYaml(mouseGEM, '../model/Mouse-GEM.yml');
 exportModel(mouseGEM, '../model/Mouse-GEM.xml');
