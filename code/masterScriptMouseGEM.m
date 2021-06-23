@@ -44,6 +44,6 @@ if isequal(rxnAssoc.rxns, mouseGEM.rxns) && isequal(metAssoc.mets, mouseGEM.mets
 end
 
 save('../model/Mouse-GEM.mat', 'mouseGEM');
-writeYaml(mouseGEM, '../model/Mouse-GEM.yml');
+exportYaml(mouseGEM, '../model/Mouse-GEM.yml');
 exportModel(mouseGEM, '../model/Mouse-GEM.xml');
 
