@@ -1,0 +1,136 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="shortest_path_length" attr.type="int" for="edge" id="d2" />
+  <key attr.name="directionalityScore" attr.type="double" for="node" id="d1" />
+  <key attr.name="-log10p" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="activation-ppara[c]">
+      <data key="d0">3.09068253601</data>
+      <data key="d1">0.00922634288013</data>
+    </node>
+    <node id="ubiquinone[m]">
+      <data key="d0">5.93582686961</data>
+      <data key="d1">-0.102218631178</data>
+    </node>
+    <node id="GM2A[l]">
+      <data key="d0">15.923629805</data>
+      <data key="d1">0.592181894235</data>
+    </node>
+    <node id="ADP[m]">
+      <data key="d0">3.48671310515</data>
+      <data key="d1">-0.0229348011857</data>
+    </node>
+    <node id="Pi[l]">
+      <data key="d0">9.21154375941</data>
+      <data key="d1">0.159646023032</data>
+    </node>
+    <node id="histidine[l]">
+      <data key="d0">13.0093045311</data>
+      <data key="d1">0.419290077944</data>
+    </node>
+    <node id="ubiquinol[m]">
+      <data key="d0">5.93582686961</data>
+      <data key="d1">-0.102218631178</data>
+    </node>
+    <node id="AKG[c]">
+      <data key="d0">3.00165449793</data>
+      <data key="d1">0.000921058477269</data>
+    </node>
+    <node id="ferrocytochrome C[m]">
+      <data key="d0">2.88805866937</data>
+      <data key="d1">-0.0196584299896</data>
+    </node>
+    <node id="ADP[l]">
+      <data key="d0">10.258679018</data>
+      <data key="d1">0.208994742447</data>
+    </node>
+    <node id="ATP[l]">
+      <data key="d0">10.258679018</data>
+      <data key="d1">0.208994742447</data>
+    </node>
+    <node id="ferricytochrome C[m]">
+      <data key="d0">2.88805866937</data>
+      <data key="d1">-0.0196584299896</data>
+    </node>
+    <edge source="ubiquinone[m]" target="ubiquinol[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ubiquinone[m]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ubiquinone[m]" target="ferricytochrome C[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GM2A[l]" target="histidine[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GM2A[l]" target="Pi[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GM2A[l]" target="ADP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ADP[m]" target="ubiquinol[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[m]" target="ferrocytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[m]" target="ADP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[m]" target="ferricytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="Pi[l]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="Pi[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="histidine[l]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="histidine[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ubiquinol[m]" target="ferrocytochrome C[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="AKG[c]" target="ferrocytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="AKG[c]" target="ATP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="AKG[c]" target="ferricytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ferrocytochrome C[m]" target="ferricytochrome C[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ADP[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+  </graph>
+</graphml>

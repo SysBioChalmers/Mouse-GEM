@@ -1,0 +1,252 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="shortest_path_length" attr.type="int" for="edge" id="d2" />
+  <key attr.name="directionalityScore" attr.type="double" for="node" id="d1" />
+  <key attr.name="-log10p" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="arachidonyl-CoA[c]">
+      <data key="d0">3.6238680872</data>
+      <data key="d1">-0.00146377301824</data>
+    </node>
+    <node id="RNA[c]">
+      <data key="d0">3.85708802232</data>
+      <data key="d1">-0.00198809460385</data>
+    </node>
+    <node id="dADP[c]">
+      <data key="d0">3.48117126419</data>
+      <data key="d1">-0.00404924355833</data>
+    </node>
+    <node id="linoleoyl-CoA[c]">
+      <data key="d0">3.72254419286</data>
+      <data key="d1">-0.001448457004</data>
+    </node>
+    <node id="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d0">4.01035569353</data>
+      <data key="d1">0.00264338792251</data>
+    </node>
+    <node id="oleoyl-CoA[c]">
+      <data key="d0">3.41723881934</data>
+      <data key="d1">-0.00268380355579</data>
+    </node>
+    <node id="propanoyl-CoA[m]">
+      <data key="d0">5.2284194274</data>
+      <data key="d1">-0.0119851062588</data>
+    </node>
+    <node id="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d0">4.10732935081</data>
+      <data key="d1">0.00175085726516</data>
+    </node>
+    <node id="ferrocytochrome C[m]">
+      <data key="d0">4.03847705531</data>
+      <data key="d1">-0.0393834253324</data>
+    </node>
+    <node id="ferricytochrome C[m]">
+      <data key="d0">4.03847705531</data>
+      <data key="d1">-0.0393834253324</data>
+    </node>
+    <node id="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d0">3.69331717156</data>
+      <data key="d1">0.00267176197941</data>
+    </node>
+    <node id="butyryl-CoA[m]">
+      <data key="d0">3.42515340888</data>
+      <data key="d1">-0.00319277546676</data>
+    </node>
+    <node id="stearoyl-CoA[c]">
+      <data key="d0">3.31496663651</data>
+      <data key="d1">-0.00145922895591</data>
+    </node>
+    <node id="dATP[c]">
+      <data key="d0">3.5788189616</data>
+      <data key="d1">-0.000997313304239</data>
+    </node>
+    <edge source="arachidonyl-CoA[c]" target="dADP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="stearoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="linoleoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="oleoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="RNA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="ferrocytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="propanoyl-CoA[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="ferricytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="butyryl-CoA[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="arachidonyl-CoA[c]" target="dATP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="dADP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="stearoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="linoleoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="oleoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="ferricytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="RNA[c]" target="dATP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="dADP[c]" target="linoleoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="dADP[c]" target="dATP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="oleoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="stearoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="ferrocytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="propanoyl-CoA[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="ferricytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="butyryl-CoA[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="linoleoyl-CoA[c]" target="dATP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-3,4,5-trisphosphate[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="oleoyl-CoA[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="oleoyl-CoA[c]" target="stearoyl-CoA[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="propanoyl-CoA[m]" target="ferrocytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="propanoyl-CoA[m]" target="ferricytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="propanoyl-CoA[m]" target="butyryl-CoA[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="[protein]-N6,N6,N6-trimethyl-L-lysine[c]" target="stearoyl-CoA[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="[protein]-N6,N6,N6-trimethyl-L-lysine[c]" target="ferricytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="[protein]-N6,N6,N6-trimethyl-L-lysine[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="[protein]-N6,N6,N6-trimethyl-L-lysine[c]" target="dATP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ferrocytochrome C[m]" target="ferricytochrome C[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ferrocytochrome C[m]" target="butyryl-CoA[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ferricytochrome C[m]" target="butyryl-CoA[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+  </graph>
+</graphml>

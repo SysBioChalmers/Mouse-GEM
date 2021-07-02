@@ -1,0 +1,240 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="shortest_path_length" attr.type="int" for="edge" id="d2" />
+  <key attr.name="directionalityScore" attr.type="double" for="node" id="d1" />
+  <key attr.name="-log10p" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="H2O[g]">
+      <data key="d0">2.85589763327</data>
+      <data key="d1">-0.000374383495227</data>
+    </node>
+    <node id="1D-myo-inositol-1,4-bisphosphate[c]">
+      <data key="d0">2.93148279312</data>
+      <data key="d1">0.000221948406395</data>
+    </node>
+    <node id="nicotinamide[c]">
+      <data key="d0">3.66293274913</data>
+      <data key="d1">0.000556524004433</data>
+    </node>
+    <node id="PI pool[c]">
+      <data key="d0">2.91845068838</data>
+      <data key="d1">-0.000248422492523</data>
+    </node>
+    <node id="Pi[l]">
+      <data key="d0">40.2235528053</data>
+      <data key="d1">0.127433718702</data>
+    </node>
+    <node id="GM2A[l]">
+      <data key="d0">93.3505807803</data>
+      <data key="d1">0.609890002112</data>
+    </node>
+    <node id="phosphatidylinositol-4,5-bisphosphate[n]">
+      <data key="d0">5.04383872131</data>
+      <data key="d1">5.94895539696e-05</data>
+    </node>
+    <node id="histidine[l]">
+      <data key="d0">67.626389103</data>
+      <data key="d1">0.338156532364</data>
+    </node>
+    <node id="H2O[n]">
+      <data key="d0">5.31250056513</data>
+      <data key="d1">0.000420071793614</data>
+    </node>
+    <node id="LacCer pool[c]">
+      <data key="d0">2.89601137254</data>
+      <data key="d1">0.000267481726185</data>
+    </node>
+    <node id="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d0">3.09234265273</data>
+      <data key="d1">0.000294113809804</data>
+    </node>
+    <node id="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d0">5.22798376167</data>
+      <data key="d1">0.000114326465061</data>
+    </node>
+    <node id="ADP[l]">
+      <data key="d0">53.5353837639</data>
+      <data key="d1">0.200709638855</data>
+    </node>
+    <node id="ATP[l]">
+      <data key="d0">53.5353837639</data>
+      <data key="d1">0.200709638855</data>
+    </node>
+    <node id="inositol-1-phosphate[c]">
+      <data key="d0">4.83042478476</data>
+      <data key="d1">0.0008727695504</data>
+    </node>
+    <node id="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]">
+      <data key="d0">3.2854061659</data>
+      <data key="d1">-0.000363254904783</data>
+    </node>
+    <edge source="H2O[g]" target="nicotinamide[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[g]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[g]" target="LacCer pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[g]" target="inositol-1-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[g]" target="H2O[n]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[g]" target="1D-myo-inositol-1,4-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[g]" target="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[g]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[g]" target="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="nicotinamide[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="LacCer pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="inositol-1-phosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="nicotinamide[c]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="nicotinamide[c]" target="Pi[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="nicotinamide[c]" target="LacCer pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="nicotinamide[c]" target="inositol-1-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="nicotinamide[c]" target="H2O[n]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="nicotinamide[c]" target="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="nicotinamide[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="nicotinamide[c]" target="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="PI pool[c]" target="LacCer pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="inositol-1-phosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="Pi[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="Pi[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GM2A[l]" target="histidine[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GM2A[l]" target="ADP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[n]" target="H2O[n]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[n]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="histidine[l]" target="LacCer pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="histidine[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="H2O[n]" target="LacCer pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="LacCer pool[c]" target="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="LacCer pool[c]" target="inositol-1-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="LacCer pool[c]" target="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="LacCer pool[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="LacCer pool[c]" target="ATP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="D-myo-inositol-1,4,5-trisphosphate[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ADP[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+  </graph>
+</graphml>

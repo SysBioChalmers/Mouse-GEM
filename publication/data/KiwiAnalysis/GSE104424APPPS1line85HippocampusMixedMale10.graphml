@@ -1,0 +1,240 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="shortest_path_length" attr.type="int" for="edge" id="d2" />
+  <key attr.name="directionalityScore" attr.type="double" for="node" id="d1" />
+  <key attr.name="-log10p" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="cholesterol[c]">
+      <data key="d0">3.44519821016</data>
+      <data key="d1">0.00127819887335</data>
+    </node>
+    <node id="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d0">3.34674312696</data>
+      <data key="d1">0.00247607436419</data>
+    </node>
+    <node id="Pi[l]">
+      <data key="d0">6.69047459037</data>
+      <data key="d1">0.121595349388</data>
+    </node>
+    <node id="ADP[l]">
+      <data key="d0">7.49407964177</data>
+      <data key="d1">0.14688603578</data>
+    </node>
+    <node id="GMP[c]">
+      <data key="d0">3.29570909737</data>
+      <data key="d1">-0.00354764576436</data>
+    </node>
+    <node id="histidine[l]">
+      <data key="d0">8.38702468447</data>
+      <data key="d1">0.30974843925</data>
+    </node>
+    <node id="propanoyl-CoA[m]">
+      <data key="d0">3.18875395833</data>
+      <data key="d1">-0.00172984715979</data>
+    </node>
+    <node id="cAMP[c]">
+      <data key="d0">3.66915051655</data>
+      <data key="d1">-0.0041606080301</data>
+    </node>
+    <node id="ATP[l]">
+      <data key="d0">7.49407964177</data>
+      <data key="d1">0.14688603578</data>
+    </node>
+    <node id="acetate[c]">
+      <data key="d0">3.18671441898</data>
+      <data key="d1">-0.00327043314976</data>
+    </node>
+    <node id="glucose[c]">
+      <data key="d0">3.45231808674</data>
+      <data key="d1">-0.000665702169451</data>
+    </node>
+    <node id="GM2A[l]">
+      <data key="d0">10.1009908203</data>
+      <data key="d1">0.521323601593</data>
+    </node>
+    <node id="2-lysolecithin pool[c]">
+      <data key="d0">3.12248116362</data>
+      <data key="d1">0.00172381701916</data>
+    </node>
+    <node id="cGMP[c]">
+      <data key="d0">3.66915051655</data>
+      <data key="d1">-0.0041606080301</data>
+    </node>
+    <edge source="cholesterol[c]" target="acetate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="glucose[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="2-lysolecithin pool[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="Pi[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="acetate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="GMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="ADP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="ATP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="histidine[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="glucose[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="2-lysolecithin pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="cGMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="Pi[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="Pi[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="Pi[l]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ADP[l]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[l]" target="glucose[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GMP[c]" target="acetate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GMP[c]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GMP[c]" target="glucose[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GMP[c]" target="cGMP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="histidine[l]" target="acetate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="histidine[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="histidine[l]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="histidine[l]" target="glucose[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="histidine[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="propanoyl-CoA[m]" target="acetate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="acetate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="ATP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="glucose[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="2-lysolecithin pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="cGMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ATP[l]" target="acetate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ATP[l]" target="glucose[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="acetate[c]" target="glucose[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="acetate[c]" target="2-lysolecithin pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="acetate[c]" target="cGMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="glucose[c]" target="2-lysolecithin pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="glucose[c]" target="cGMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,300 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="shortest_path_length" attr.type="int" for="edge" id="d2" />
+  <key attr.name="directionalityScore" attr.type="double" for="node" id="d1" />
+  <key attr.name="-log10p" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="inositol-1-phosphate[c]">
+      <data key="d0">2.76594242366</data>
+      <data key="d1">-0.000871220864981</data>
+    </node>
+    <node id="activation-ppara[n]">
+      <data key="d0">3.32909645104</data>
+      <data key="d1">0.00312893388267</data>
+    </node>
+    <node id="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]">
+      <data key="d0">3.59461017123</data>
+      <data key="d1">-0.00845411656466</data>
+    </node>
+    <node id="GM2A[l]">
+      <data key="d0">9.50349612043</data>
+      <data key="d1">0.36909009065</data>
+    </node>
+    <node id="cysteine[s]">
+      <data key="d0">2.89544324372</data>
+      <data key="d1">0.00328963811938</data>
+    </node>
+    <node id="GTP[c]">
+      <data key="d0">3.22945528566</data>
+      <data key="d1">0.000110598455798</data>
+    </node>
+    <node id="ATP[l]">
+      <data key="d0">6.92171272983</data>
+      <data key="d1">0.151659957586</data>
+    </node>
+    <node id="cAMP[c]">
+      <data key="d0">2.78603323763</data>
+      <data key="d1">0.000176104112539</data>
+    </node>
+    <node id="cGMP[c]">
+      <data key="d0">2.78603323763</data>
+      <data key="d1">0.000176104112539</data>
+    </node>
+    <node id="GDP[c]">
+      <data key="d0">2.74000796764</data>
+      <data key="d1">0.000269765106684</data>
+    </node>
+    <node id="activation-ppara[c]">
+      <data key="d0">4.07106231676</data>
+      <data key="d1">0.0178360906146</data>
+    </node>
+    <node id="1-phosphatidyl-1D-myo-inositol-3-phosphate[c]">
+      <data key="d0">2.93840651189</data>
+      <data key="d1">-0.00376085832766</data>
+    </node>
+    <node id="ADP[l]">
+      <data key="d0">6.92171272983</data>
+      <data key="d1">0.151659957586</data>
+    </node>
+    <node id="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d0">2.8844016446</data>
+      <data key="d1">-0.00430346936695</data>
+    </node>
+    <node id="ADP[m]">
+      <data key="d0">3.07801535729</data>
+      <data key="d1">-0.00128162744015</data>
+    </node>
+    <node id="Pi[m]">
+      <data key="d0">3.02027157025</data>
+      <data key="d1">-0.00149513977369</data>
+    </node>
+    <node id="PI pool[c]">
+      <data key="d0">4.05220540187</data>
+      <data key="d1">-0.0059743309774</data>
+    </node>
+    <node id="Pi[l]">
+      <data key="d0">5.87802470297</data>
+      <data key="d1">0.116104260759</data>
+    </node>
+    <node id="H2O[n]">
+      <data key="d0">3.42821395672</data>
+      <data key="d1">-0.000325042762049</data>
+    </node>
+    <node id="GSH[m]">
+      <data key="d0">3.05623162557</data>
+      <data key="d1">-0.000376707110255</data>
+    </node>
+    <edge source="inositol-1-phosphate[c]" target="cysteine[s]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="PI pool[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="H2O[n]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="activation-ppara[n]" target="activation-ppara[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]" target="PI pool[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]" target="H2O[n]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-4-phosphate[c]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GM2A[l]" target="Pi[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GM2A[l]" target="ADP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GTP[c]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GTP[c]" target="cGMP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GTP[c]" target="GDP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GTP[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GTP[c]" target="H2O[n]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GTP[c]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ATP[l]" target="Pi[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ATP[l]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ATP[l]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ATP[l]" target="ADP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="cAMP[c]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="cGMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="GDP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="1-phosphatidyl-1D-myo-inositol-3-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="ADP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="Pi[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="Pi[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="GSH[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cGMP[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cGMP[c]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GDP[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GDP[c]" target="H2O[n]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GDP[c]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-3-phosphate[c]" target="PI pool[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-3-phosphate[c]" target="H2O[n]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-3-phosphate[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-3-phosphate[c]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[l]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-3,4,5-trisphosphate[c]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-3,4,5-trisphosphate[c]" target="Pi[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-3,4,5-trisphosphate[c]" target="Pi[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-3,4,5-trisphosphate[c]" target="GSH[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[m]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[m]" target="Pi[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[m]" target="GSH[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="Pi[m]" target="GSH[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="PI pool[c]" target="H2O[n]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="GSH[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+  </graph>
+</graphml>

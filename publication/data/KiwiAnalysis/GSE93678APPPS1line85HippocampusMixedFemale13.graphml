@@ -1,0 +1,76 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="shortest_path_length" attr.type="int" for="edge" id="d2" />
+  <key attr.name="directionalityScore" attr.type="double" for="node" id="d1" />
+  <key attr.name="-log10p" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="ADP[l]">
+      <data key="d0">13.8953624111</data>
+      <data key="d1">0.220422878099</data>
+    </node>
+    <node id="inositol-1-phosphate[c]">
+      <data key="d0">2.97313488461</data>
+      <data key="d1">0.00045580221458</data>
+    </node>
+    <node id="ATP[l]">
+      <data key="d0">13.8953624111</data>
+      <data key="d1">0.220422878099</data>
+    </node>
+    <node id="histidine[l]">
+      <data key="d0">18.3624919572</data>
+      <data key="d1">0.366021420771</data>
+    </node>
+    <node id="GM2A[l]">
+      <data key="d0">22.6210004446</data>
+      <data key="d1">0.637664617256</data>
+    </node>
+    <node id="phosphatidylinositol-4,5-bisphosphate[n]">
+      <data key="d0">2.819706457</data>
+      <data key="d1">-0.000427680789853</data>
+    </node>
+    <node id="Pi[l]">
+      <data key="d0">10.3196848734</data>
+      <data key="d1">0.149779529877</data>
+    </node>
+    <node id="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d0">3.15465648074</data>
+      <data key="d1">-0.00214551899419</data>
+    </node>
+    <edge source="ADP[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ADP[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="Pi[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ATP[l]" target="histidine[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ATP[l]" target="Pi[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="histidine[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="GM2A[l]" target="Pi[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[n]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+  </graph>
+</graphml>

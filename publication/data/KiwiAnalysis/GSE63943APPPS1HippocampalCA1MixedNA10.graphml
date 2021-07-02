@@ -1,0 +1,268 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="shortest_path_length" attr.type="int" for="edge" id="d2" />
+  <key attr.name="directionalityScore" attr.type="double" for="node" id="d1" />
+  <key attr.name="-log10p" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="histidine[l]">
+      <data key="d0">28.1555091199</data>
+      <data key="d1">0.35311826169</data>
+    </node>
+    <node id="Pi[l]">
+      <data key="d0">16.798877454</data>
+      <data key="d1">0.158013875131</data>
+    </node>
+    <node id="phosphatidylinositol-4,5-bisphosphate[n]">
+      <data key="d0">6.78995342532</data>
+      <data key="d1">-2.05130285048e-06</data>
+    </node>
+    <node id="1D-myo-inositol-1,4-bisphosphate[c]">
+      <data key="d0">6.21551158742</data>
+      <data key="d1">0.00333979015106</data>
+    </node>
+    <node id="tRNA(met)[c]">
+      <data key="d0">8.05214962048</data>
+      <data key="d1">-0.00916845025849</data>
+    </node>
+    <node id="inositol-1-phosphate[c]">
+      <data key="d0">7.72178590012</data>
+      <data key="d1">0.00685917983956</data>
+    </node>
+    <node id="1-phosphatidyl-1D-myo-inositol-5-phosphate[c]">
+      <data key="d0">5.29779954911</data>
+      <data key="d1">-0.0112537880933</data>
+    </node>
+    <node id="tRNA(arg)[c]">
+      <data key="d0">9.13445164183</data>
+      <data key="d1">-0.0140377903879</data>
+    </node>
+    <node id="cholesterol[c]">
+      <data key="d0">5.60505269474</data>
+      <data key="d1">0.00373771625705</data>
+    </node>
+    <node id="ADP[l]">
+      <data key="d0">18.2787062615</data>
+      <data key="d1">0.21337903079</data>
+    </node>
+    <node id="ATP[l]">
+      <data key="d0">18.2787062615</data>
+      <data key="d1">0.21337903079</data>
+    </node>
+    <node id="GM2A[l]">
+      <data key="d0">34.2211978794</data>
+      <data key="d1">0.560177598583</data>
+    </node>
+    <node id="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d0">6.46812651222</data>
+      <data key="d1">0.00408047835041</data>
+    </node>
+    <node id="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d0">5.8816554333</data>
+      <data key="d1">-0.00835193250039</data>
+    </node>
+    <node id="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d0">7.82779631557</data>
+      <data key="d1">-0.00125881393292</data>
+    </node>
+    <node id="tRNA(phe)[c]">
+      <data key="d0">8.69302168517</data>
+      <data key="d1">-0.011854048699</data>
+    </node>
+    <edge source="histidine[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="histidine[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="histidine[l]" target="cholesterol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="Pi[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="Pi[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="Pi[l]" target="cholesterol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[n]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="inositol-1-phosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="tRNA(arg)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="tRNA(met)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="1D-myo-inositol-1,4-bisphosphate[c]" target="cholesterol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="inositol-1-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="1-phosphatidyl-1D-myo-inositol-5-phosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="tRNA(arg)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="ATP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="cholesterol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(met)[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="tRNA(arg)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="inositol-1-phosphate[c]" target="cholesterol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-5-phosphate[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-5-phosphate[c]" target="tRNA(arg)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-5-phosphate[c]" target="cholesterol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="1-phosphatidyl-1D-myo-inositol-5-phosphate[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="tRNA(arg)[c]" target="ATP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(arg)[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(arg)[c]" target="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(arg)[c]" target="cholesterol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(arg)[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="tRNA(arg)[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="ATP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="ADP[l]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="D-myo-inositol-1,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cholesterol[c]" target="phosphatidylinositol-3,4,5-trisphosphate[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[l]" target="ATP[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ADP[l]" target="GM2A[l]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ATP[l]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="D-myo-inositol-1,4,5-trisphosphate[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="D-myo-inositol-1,4,5-trisphosphate[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="phosphatidylinositol-3,4,5-trisphosphate[c]" target="phosphatidylinositol-4,5-bisphosphate[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="phosphatidylinositol-3,4,5-trisphosphate[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="phosphatidylinositol-4,5-bisphosphate[c]" target="tRNA(phe)[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+  </graph>
+</graphml>

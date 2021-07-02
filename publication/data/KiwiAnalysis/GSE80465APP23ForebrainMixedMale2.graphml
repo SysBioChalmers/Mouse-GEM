@@ -1,0 +1,488 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="shortest_path_length" attr.type="int" for="edge" id="d2" />
+  <key attr.name="directionalityScore" attr.type="double" for="node" id="d1" />
+  <key attr.name="-log10p" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="ferricytochrome C[m]">
+      <data key="d0">2.71475121272</data>
+      <data key="d1">-0.0112757928989</data>
+    </node>
+    <node id="cAMP[c]">
+      <data key="d0">2.75937949737</data>
+      <data key="d1">0.0032669534333</data>
+    </node>
+    <node id="cGMP[c]">
+      <data key="d0">2.75937949737</data>
+      <data key="d1">0.0032669534333</data>
+    </node>
+    <node id="H2O2[m]">
+      <data key="d0">3.3947404942</data>
+      <data key="d1">-0.00806839656322</data>
+    </node>
+    <node id="K+[s]">
+      <data key="d0">3.54178705116</data>
+      <data key="d1">-0.00512279336839</data>
+    </node>
+    <node id="ADP[m]">
+      <data key="d0">6.60890299838</data>
+      <data key="d1">-0.0427823144261</data>
+    </node>
+    <node id="Pi[m]">
+      <data key="d0">3.52567451268</data>
+      <data key="d1">-0.0105203106817</data>
+    </node>
+    <node id="H2O[n]">
+      <data key="d0">3.85406167268</data>
+      <data key="d1">-0.000250118185834</data>
+    </node>
+    <node id="ubiquinol[m]">
+      <data key="d0">8.59759529875</data>
+      <data key="d1">-0.22267389935</data>
+    </node>
+    <node id="ferrocytochrome C[m]">
+      <data key="d0">2.71475121272</data>
+      <data key="d1">-0.0112757928989</data>
+    </node>
+    <node id="PI pool[c]">
+      <data key="d0">2.8467441435</data>
+      <data key="d1">-0.000129683132628</data>
+    </node>
+    <node id="K+[c]">
+      <data key="d0">4.01733919974</data>
+      <data key="d1">-0.00347458320341</data>
+    </node>
+    <node id="GDP[c]">
+      <data key="d0">4.06985554144</data>
+      <data key="d1">-0.00098868523986</data>
+    </node>
+    <node id="beta-carboline[c]">
+      <data key="d0">3.09587138641</data>
+      <data key="d1">-0.000250524629564</data>
+    </node>
+    <node id="CTP[c]">
+      <data key="d0">3.61172150236</data>
+      <data key="d1">0.000320316701172</data>
+    </node>
+    <node id="harman[c]">
+      <data key="d0">3.09587138641</data>
+      <data key="d1">-0.000250524629564</data>
+    </node>
+    <node id="salsolinol[c]">
+      <data key="d0">3.06593345282</data>
+      <data key="d1">-0.000379625545128</data>
+    </node>
+    <node id="ubiquinone[m]">
+      <data key="d0">8.59759529875</data>
+      <data key="d1">-0.22267389935</data>
+    </node>
+    <node id="UTP[c]">
+      <data key="d0">4.30333437819</data>
+      <data key="d1">2.84913047566e-05</data>
+    </node>
+    <node id="AKG[c]">
+      <data key="d0">2.94820501319</data>
+      <data key="d1">-0.0109513787812</data>
+    </node>
+    <node id="chloride[c]">
+      <data key="d0">3.14333188176</data>
+      <data key="d1">0.000621312942664</data>
+    </node>
+    <node id="activation-ppara[n]">
+      <data key="d0">3.14649958698</data>
+      <data key="d1">2.78710829646e-06</data>
+    </node>
+    <node id="(R)-1,2-dimethyl-5,6-dihydroxy-tetrahydroisoquinoline[c]">
+      <data key="d0">3.09587138641</data>
+      <data key="d1">-0.000250524629564</data>
+    </node>
+    <node id="GTP[c]">
+      <data key="d0">4.57012775012</data>
+      <data key="d1">0.000838076456837</data>
+    </node>
+    <node id="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d0">2.9657167714</data>
+      <data key="d1">0.0044144507803</data>
+    </node>
+    <node id="propanoyl-CoA[m]">
+      <data key="d0">3.02113295505</data>
+      <data key="d1">-0.00525936730006</data>
+    </node>
+    <node id="CDP[c]">
+      <data key="d0">3.43289504751</data>
+      <data key="d1">0.000209795927812</data>
+    </node>
+    <edge source="ferricytochrome C[m]" target="cAMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ferricytochrome C[m]" target="ferrocytochrome C[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ferricytochrome C[m]" target="H2O2[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ferricytochrome C[m]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ferricytochrome C[m]" target="ubiquinone[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ferricytochrome C[m]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ferricytochrome C[m]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="cGMP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="K+[s]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="Pi[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="K+[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="GDP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="beta-carboline[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="salsolinol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="UTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="CTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="GTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cAMP[c]" target="CDP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cGMP[c]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cGMP[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="cGMP[c]" target="GTP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="cGMP[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O2[m]" target="ferrocytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O2[m]" target="ADP[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O2[m]" target="Pi[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O2[m]" target="ubiquinol[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O2[m]" target="ubiquinone[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O2[m]" target="propanoyl-CoA[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="K+[s]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="K+[s]" target="K+[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="K+[s]" target="chloride[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="K+[s]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="K+[s]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[m]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ADP[m]" target="propanoyl-CoA[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="Pi[m]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="Pi[m]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="Pi[m]" target="propanoyl-CoA[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="H2O[n]" target="ferrocytochrome C[m]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="CTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="K+[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="GDP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="chloride[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="UTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="GTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="H2O[n]" target="CDP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ubiquinol[m]" target="ferrocytochrome C[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ubiquinol[m]" target="ubiquinone[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ubiquinol[m]" target="propanoyl-CoA[m]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="ferrocytochrome C[m]" target="PI pool[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="ferrocytochrome C[m]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="UTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="K+[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="GDP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="beta-carboline[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="CTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="chloride[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="salsolinol[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="GTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="PI pool[c]" target="CDP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="K+[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="K+[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GDP[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GDP[c]" target="GTP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="beta-carboline[c]" target="harman[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="beta-carboline[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="beta-carboline[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="CTP[c]" target="UTP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="CTP[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="CTP[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="CTP[c]" target="CDP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="harman[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="salsolinol[c]" target="(R)-1,2-dimethyl-5,6-dihydroxy-tetrahydroisoquinoline[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="salsolinol[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="salsolinol[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="UTP[c]" target="AKG[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="UTP[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="UTP[c]" target="CDP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="AKG[c]" target="chloride[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="AKG[c]" target="GTP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="AKG[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="AKG[c]" target="CDP[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="(R)-1,2-dimethyl-5,6-dihydroxy-tetrahydroisoquinoline[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GTP[c]" target="[protein]-N6,N6,N6-trimethyl-L-lysine[c]">
+      <data key="d2">2</data>
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="GTP[c]" target="CDP[c]">
+      <data key="d2">1</data>
+      <data key="d3">5.0</data>
+    </edge>
+  </graph>
+</graphml>
