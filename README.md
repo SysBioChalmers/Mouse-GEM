@@ -11,7 +11,7 @@ This repository contains the latest version of Mouse-GEM, a mouse genome-scale m
 
 #### Citation
 
-Manuscript under preparation
+ > H. Wang, J. L. Robinson, P. Kocabaş, J. Gustafsson, M. Anton, P.-E. Cholley, et al. Genome-scale metabolic network reconstruction of model animals as a platform for translational research. _PNAS_ 118, e2102344118 (2021). [doi.org/10.1073/pnas.2102344118](https://doi.org/10.1073/pnas.2102344118)
 
 #### Model Keywords
 
