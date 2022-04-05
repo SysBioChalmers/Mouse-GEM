@@ -14,7 +14,6 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR04301"	""	""	"HMR_4301"	"r0191"	"R00769"	"MNXR105312;MNXR106676"	""	"RCR14181"	"r0191"	"HMR_4301"	""	""	""	0
 "MAR04355"	""	"R01829C"	"HMR_4355"	"r0407"	"R01829"	"MNXR105337;MNXR99461"	""	"RCR14182"	"r0407"	"HMR_4355"	""	""	""	0
 "MAR04358"	"PYK"	"R00200C"	"HMR_4358"	"r0054"	"R00200"	"MNXR103371"	""	"RCR10276"	"PYK"	"HMR_4358"	"RHEA:18159"	"RHEA:18157"	""	0
-"MAR04360"	""	""	"HMR_4360"	"r0055"	"R00205"	"MNXR95787"	""	"RCR11024"	"r0055"	"HMR_4360"	""	""	""	0
 "MAR04363"	"ENO"	"R00658C"	"HMR_4363"	"r0164"	"R00658"	"MNXR97932"	""	"RCR10443"	"ENO"	"HMR_4363"	""	""	""	0
 "MAR04365"	"PGM"	"R01518C"	"HMR_4365"	"r0341"	"R01518"	"MNXR102547"	""	"RCR10444"	"PGM"	"HMR_4365"	""	""	""	0
 "MAR04368"	"PGK"	"R01512C"	"HMR_4368"	"r0337"	"R01512"	"MNXR102538"	""	"RCR10230"	"PGK"	"HMR_4368"	""	""	""	0
@@ -31,11 +30,8 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR04521"	"G6PPer"	""	"HMR_4521"	"r0396"	"R00303"	"MNXR99912"	""	"RCR11028"	"G6PPer"	"HMR_4521"	""	""	""	0
 "MAR06410"	""	"R01699M"	"HMR_6410"	"r0383"	"R01699"	"MNXR102427;MNXR107129"	""	"RCR10446"	"r0383"	"HMR_6410"	""	""	""	0
 "MAR06412"	""	"R02569C"	"HMR_6412"	"r0555"	"R02569"	"MNXR102430;MNXR107584"	""	"RCR14187"	"r0555"	"HMR_6412"	""	""	""	0
-"MAR07745"	""	""	"HMR_7745"	""	"R01602"	"MNXR107082"	""	"RCR10447"	"HMR_7745"	"HMR_7745"	""	""	""	0
-"MAR07746"	""	""	"HMR_7746"	""	"R01600"	"MNXR107081"	""	"RCR10448"	"HMR_7746"	"HMR_7746"	""	""	""	0
-"MAR07747"	""	""	"HMR_7747"	""	"R09086"	"MNXR112530"	""	"RCR10449"	"HMR_7747"	"HMR_7747"	""	""	""	0
-"MAR07748"	""	""	"HMR_7748"	""	"R02739"	"MNXR99911"	""	"RCR10277"	"HMR_7748"	"HMR_7748"	""	""	""	0
-"MAR07749"	""	""	"HMR_7749"	""	"R03321"	"MNXR99910"	""	"RCR14188"	"HMR_7749"	"HMR_7749"	""	""	""	0
+"MAR07745"	""	""	"HMR_7745"	""	"R01602"	"MNXR107082"	""	"RCR10447"	"HMR_7745"	"HMR_7745"	"RHEA:10264"	"RHEA:10267"	""	0
+"MAR07747"	""	""	"HMR_7747"	""	"R09086"	"MNXR112530"	""	"RCR10449"	"HMR_7747"	"HMR_7747"	"RHEA:11460"	"RHEA:11461"	""	0
 "MAR08360"	"CAt7r"	""	"HMR_8360"	""	""	"MNXR96461"	""	"RCR11029"	"CAT2p"	"HMR_8360"	""	""	""	0
 "MAR08652"	"CBPS"	""	"HMR_8652"	""	""	"MNXR96485"	""	"RCR11030"	"CBPPer"	"HMR_8652"	""	""	""	0
 "MAR08757"	"ETOHtx"	""	"HMR_8757"	""	""	"MNXR97980"	""	"RCR11031"	"ETOHMO"	"HMR_8757"	""	""	""	0
@@ -1277,8 +1273,6 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR05174"	""	""	"HMR_5174"	""	""	""	""	"RCR14476"	"HMR_5174"	"HMR_5174"	""	""	""	0
 "MAR07282"	""	""	"HMR_7282"	""	""	""	""	"RCR11617"	""	"HMR_7282"	""	""	""	0
 "MAR07616"	""	""	"HMR_7616"	""	""	""	""	"RCR10348"	"HMR_7616"	"HMR_7616"	""	""	""	0
-"MAR07617"	""	""	"HMR_7617"	""	"R02584"	"MNXR107595"	""	"RCR11618"	"HMR_7617"	"HMR_7617"	""	""	""	0
-"MAR07618"	""	""	"HMR_7618"	""	"R02585"	"MNXR107596"	""	"RCR11619"	"HMR_7618"	"HMR_7618"	""	""	""	0
 "MAR07619"	""	""	"HMR_7619"	""	"R02586"	"MNXR107597"	""	"RCR14477"	"HMR_7619"	"HMR_7619"	""	""	""	0
 "MAR09735"	""	""	"HMR_9735"	""	""	""	""	"RCR11620"	"HMR_9735"	"HMR_9735"	""	""	""	0
 "MAR07621"	""	""	"HMR_7621"	""	""	""	""	"RCR10252"	"HMR_7621"	"HMR_7621"	""	""	""	0
@@ -2956,7 +2950,7 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR07962"	"UGT1A1r"	""	"HMR_7962"	""	"R02358"	"MNXR105096"	""	"RCR12872"	"UGT1A1r"	"HMR_7962"	""	""	""	0
 "MAR07965"	"UGT1A3r"	""	"HMR_7965"	""	"R02478"	"MNXR105098"	""	"RCR12873"	"UGT1A3r"	"HMR_7965"	""	""	""	0
 "MAR07968"	"HSD17B8r"	""	"HMR_7968"	""	"R02352"	"MNXR100722"	""	"RCR14541"	"HSD17B8r"	"HMR_7968"	""	""	""	0
-"MAR02041"	""	""	"HMR_2041"	""	"R02353"	""	""	"RCR20505"	"HMR_2041"	"HMR_2041"	""	""	""	0
+"MAR02041"	"HSD17B7r"	""	"HMR_2041"	""	"R02353"	"MNXR100715"	""	"RCR20505"	"HMR_2041"	"HMR_2041"	"RHEA:24618"	"RHEA:24616"	""	0
 "MAR07970"	"HSD17B9r"	""	"HMR_7970"	""	""	"MNXR100723"	""	"RCR12874"	"HSD17B9r"	"HMR_7970"	""	""	""	0
 "MAR07971"	"HSD3B2r"	""	"HMR_7971"	""	""	"MNXR100729"	""	"RCR14542"	"HSD3B2r"	"HMR_7971"	""	""	""	0
 "MAR07972"	"HSD3B3r"	""	"HMR_7972"	""	""	"MNXR100730"	""	"RCR12875"	"HSD3B3r"	"HMR_7972"	""	""	""	0
@@ -4614,7 +4608,6 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR04752"	""	"R03220M"	"HMR_4752"	"r0608"	"R03220"	"MNXR96880"	""	"RCR13873"	"CPPPGO"	"HMR_4752"	"RHEA:18258"	"RHEA:18257"	""	0
 "MAR04755"	"PPPGOm"	"R03222C"	"HMR_4755"	"r0609"	"R03222"	"MNXR103128;MNXR103132"	""	"RCR10981"	""	"HMR_4755"	""	""	""	0
 "MAR04757"	"PPPGO"	""	"HMR_4757"	""	"R03222"	"MNXR103128"	""	"RCR13874"	"HMR_4757"	"HMR_4757"	""	""	""	0
-"MAR04758"	""	"R00310C"	"HMR_4758"	"r0096"	"R00310"	"MNXR99471"	""	"RCR20530"	""	"HMR_4758"	"RHEA:22586"	"RHEA:22584"	""	0
 "MAR04762"	""	""	"HMR_4762"	""	"R02480"	"MNXR100594"	""	"RCR13875"	"HMR_4762"	"HMR_4762"	""	""	""	0
 "MAR04763"	""	""	"HMR_4763"	""	"R03683"	""	""	"RCR14695"	"HMR_4763"	"HMR_4763"	""	""	""	0
 "MAR04764"	""	""	"HMR_4764"	""	"R02391"	"MNXR96260"	""	"RCR10982"	"HMR_4764"	"HMR_4764"	""	""	""	0
@@ -5093,9 +5086,6 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR09573"	""	"RE2149C"	"HMR_9573"	""	""	""	""	"RCR14829"	"RE2149C"	"HMR_9573"	""	""	""	0
 "MAR09574"	""	"RE2149R"	"HMR_9574"	""	""	"MNXR103626"	""	"RCR14830"	"RE2149R"	"HMR_9574"	""	""	""	0
 "MAR09575"	""	""	"HMR_9575"	""	"R09365"	"MNXR112794"	""	"RCR14831"	"HMR_9575"	"HMR_9575"	""	""	""	0
-"MAR09577"	""	""	"HMR_9577"	""	"R00162"	"MNXR106414"	""	"RCR14832"	"HMR_9577"	"HMR_9577"	""	""	""	0
-"MAR09578"	""	""	"HMR_9578"	""	"R00164"	"MNXR106415"	""	"RCR14833"	"HMR_9578"	"HMR_9578"	""	""	""	0
-"MAR09579"	""	""	"HMR_9579"	""	"R03632"	"MNXR108312"	""	"RCR11010"	"HMR_9579"	"HMR_9579"	""	""	""	0
 "MAR09580"	""	""	"HMR_9580"	""	""	""	""	"RCR40961"	"HMR_9580"	"HMR_9580"	""	""	""	0
 "MAR09581"	""	""	"HMR_9581"	""	""	""	""	"RCR40344"	"HMR_9581"	"HMR_9581"	""	""	""	0
 "MAR09582"	""	""	"HMR_9582"	""	""	""	""	"RCR40345"	"HMR_9582"	"HMR_9582"	""	""	""	0
@@ -7598,7 +7588,6 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR06797"	""	""	"HMR_6797"	""	""	""	""	"RCR20158"	"HMR_6797"	"HMR_6797"	""	""	""	0
 "MAR06990"	""	""	"HMR_6990"	""	""	""	""	"RCR20159"	"HMR_6990"	"HMR_6990"	""	""	""	0
 "MAR07257"	"DOLP_Lter"	""	"HMR_7257"	""	""	"MNXR97746"	""	"RCR20368"	"HMR_7257;DOLPMT4_Ler;DOLPMT4_Uer"	"HMR_7257"	""	""	""	0
-"MAR07262"	"DOLICHOL_Lter"	""	"HMR_7262"	""	""	"MNXR97703"	""	"RCR20987"	""	"HMR_7262"	""	""	""	0
 "MAR07272"	"DOLMANP_Lter"	""	"HMR_7272"	""	""	"MNXR97709"	""	"RCR21126"	"DOLMANP_Lter;DOLMANP_Uter"	"HMR_7272"	""	""	""	0
 "MAR07273"	""	""	"HMR_7273"	""	""	""	""	"RCR20988"	"M4MPDOL_Lter;M4MPDOL_Uter"	"HMR_7273"	""	""	""	0
 "MAR07649"	"ESTRADIOLGLCtr"	""	"HMR_7649"	""	""	"MNXR97954"	""	"RCR20989"	"ESTRADIOLGLCtr"	"HMR_7649"	""	""	""	0
@@ -8271,7 +8260,7 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR00286"	"DMHPTCRNt"	""	""	""	""	"MNXR97522"	""	""	"DMHPTCRNt"	"DMHPTCRNt"	""	""	""	0
 "MAR00315"	"DMNONCRNt"	""	""	""	""	"MNXR96433"	""	""	"DMNONCRNt"	"DMNONCRNt"	""	""	""	0
 "MAR00316"	"DOLGLCP_Lter"	""	""	""	""	"MNXR97697"	""	""	"DOLGLCP_Lter;DOLGLCP_Uter"	"DOLGLCP_Lter"	""	""	""	0
-"MAR00333"	"DOLICHOL_Uter"	""	""	""	""	"MNXR97704"	""	""	"DOLICHOL_Uter;DOLICHOL_Lter"	"DOLICHOL_Uter"	""	""	""	0
+"MAR00333"	"DOLICHOL_Uter"	""	"HMR_7262"	""	""	"MNXR142800"	""	""	"DOLICHOL_Uter;DOLICHOL_Lter"	"DOLICHOL_Uter"	""	""	""	0
 "MAR00334"	"DOPAVESSEC"	""	""	""	""	"MNXR97756"	""	""	"DOPAVESSEC"	"DOPAVESSEC"	""	""	""	0
 "MAR00441"	"DPMVDx"	""	""	""	""	"MNXR97776"	""	""	"DPMVDx"	"DPMVDx"	""	""	""	0
 "MAR00442"	"DPROOp"	""	""	""	""	"MNXR97780"	""	""	"DPROOp"	"DPROOp"	""	""	""	0
@@ -8413,7 +8402,7 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR01032"	"FAS180COA"	""	""	""	""	"MNXR99405"	""	""	"FAS180COA"	"FAS180COA"	""	""	""	0
 "MAR01036"	"FAS80COA_L"	""	""	""	""	"MNXR99415"	""	""	"FAS80COA_L"	"FAS80COA_L"	""	""	""	0
 "MAR01038"	"FBA5"	""	""	""	""	"MNXR99463"	""	""	"FBA5"	"FBA5"	""	""	""	0
-"MAR01044"	"FCLTm"	""	""	""	""	"MNXR99471"	""	""	"FCLTm"	"FCLTm"	"RHEA:22586"	"RHEA:22584"	""	0
+"MAR01044"	"FCLTm"	"R00310C"	"HMR_4758"	"r0096"	"R00310"	"MNXR99471"	""	"RCR20530"	"FCLTm"	"FCLTm"	"RHEA:22586"	"RHEA:22584"	""	0
 "MAR01046"	"FE2tm"	""	""	""	""	"MNXR99501"	""	""	"FE2tm"	"FE2tm"	""	""	""	0
 "MAR01047"	"FOLt2"	""	""	""	""	"MNXR99613"	""	""	"FOLt2"	"FOLt2"	""	""	""	0
 "MAR01051"	"FRDPtc"	""	""	""	""	"MNXR99646"	""	""	"FRDPtc"	"FRDPtc"	""	""	""	0
@@ -8461,7 +8450,6 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR01455"	"HRETNtn"	""	""	""	""	"MNXR100704"	""	""	"HRETNtn"	"HRETNtn"	""	""	""	0
 "MAR01456"	"HSD17B42x"	""	""	""	""	"MNXR100718"	""	""	"HSD17B42x"	"HSD17B42x"	""	""	""	0
 "MAR01458"	"HSD17B4x"	""	""	""	""	"MNXR100720"	""	""	"HSD17B4x"	"HSD17B4x"	""	""	""	0
-"MAR01459"	"HSD17B7r"	""	""	""	""	"MNXR100715"	""	""	"HSD17B7r"	"HSD17B7r"	""	""	""	0
 "MAR01461"	"Htr"	""	""	""	""	"MNXR100765"	""	""	"Htr"	"Htr"	"RHEA:34982"	"RHEA:34979"	""	0
 "MAR01462"	"Htx"	""	""	""	""	"MNXR100765"	""	""	"Htx"	"Htx"	"RHEA:34982"	"RHEA:34979"	""	0
 "MAR01463"	"HXANtl"	""	""	""	""	"MNXR100749"	""	""	"HXANtl"	"HXANtl"	""	""	""	0
@@ -11143,13 +11131,10 @@ rxns	rxnBiGGID	rxnEHMNID	rxnHMR2ID	rxnHepatoNET1ID	rxnKEGGID	rxnMetaNetXID	rxnRE
 "MAR11266"	""	""	""	""	""	""	""	""	"DDECCRNtr"	"DDECCRNtr"	""	""	""	0
 "MAR11267"	""	""	""	""	""	""	""	""	"DDECE1CRNtr"	"DDECE1CRNtr"	""	""	""	0
 "MAR11268"	""	""	""	""	""	""	""	""	"DECDICRNtr"	"DECDICRNtr"	""	""	""	0
-"MAR11269"	""	""	""	""	""	""	""	""	"ELAIDCRNtr"	"ELAIDCRNtr"	""	""	""	0
 "MAR11270"	"HDCECRNtr"	""	""	""	""	""	""	""	"HDCECRNtr"	"HDCECRNtr"	""	""	""	0
 "MAR11271"	""	""	""	""	""	""	""	""	"IVCRNtr"	"IVCRNtr"	""	""	""	0
 "MAR11272"	"LNELDCCRNtr"	""	""	""	""	""	""	""	"LNELDCCRNtr"	"LNELDCCRNtr"	""	""	""	0
-"MAR11273"	""	""	""	""	""	""	""	""	"LNLCCRNtr"	"LNLCCRNtr"	""	""	""	0
 "MAR11274"	"ODECRNtr"	""	""	""	""	""	""	""	"ODECRNtr"	"ODECRNtr"	""	""	""	0
-"MAR11275"	""	""	""	""	""	""	""	""	"PCRNtr"	"PCRNtr"	""	""	""	0
 "MAR11276"	"PMTCRNtr"	""	""	""	""	""	""	""	"PMTCRNtr"	"PMTCRNtr"	""	""	""	0
 "MAR11277"	"STCRNtr"	""	""	""	""	""	""	""	"STCRNtr"	"STCRNtr"	""	""	""	0
 "MAR11278"	""	""	""	""	""	""	""	""	"TETDEC2CRntr"	"TETDEC2CRntr"	""	""	""	0
