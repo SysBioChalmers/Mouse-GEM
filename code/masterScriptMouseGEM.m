@@ -43,6 +43,8 @@ if isequal(rxnAssoc.rxns, mouseGEM.rxns) && isequal(metAssoc.mets, mouseGEM.mets
     exportTsvFile(metAssoc,'../model/metabolites.tsv');
 end
 
+mouseGEM = annotateGEM(mouseGEM,'../model',{'rxn','met'});  % add annotation data to structure
+mouseGEM.id = regexprep(mouseGEM.id,'-','');  % remove dash from model ID since it causes problems with SBML I/O
 save('../model/Mouse-GEM.mat', 'mouseGEM');
 exportYaml(mouseGEM, '../model/Mouse-GEM.yml');
 exportModel(mouseGEM, '../model/Mouse-GEM.xml');
