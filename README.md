@@ -35,7 +35,7 @@ This repository contains the latest version of Mouse-GEM, a mouse genome-scale m
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-|_Mus musculus_ |   Human-GEM |  13063  | 8370 | 2959 |
+|_Mus musculus_ |   Human-GEM |  13020  | 8373 | 2959 |
 
 
 ## Installation
