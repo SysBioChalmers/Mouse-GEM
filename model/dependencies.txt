@@ -1,5 +1,5 @@
 MATLAB	9.10.0.1602886 (R2021a)
 libSBML	5.19.0
 RAVEN_toolbox	2.7.6
-COBRA_toolbox	3.3.0
-Human-GEM	1.12.0 + PR #420
+COBRA_toolbox	3.4.0
+Human-GEM	1.14.0

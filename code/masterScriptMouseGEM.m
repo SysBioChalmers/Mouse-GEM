@@ -18,7 +18,7 @@ addpath(genpath('../../Mouse-GEM/'));
 %% Prepare Mouse ortholog pairs and species-specific network
 
 % get ortholog pairs from human to mouse
-mouseOrthologPairs = extractAllianceGenomeOrthologs('human2MouseOrthologs.json');
+mouseOrthologPairs = extractAllianceGenomeOrthologs('human2MouseOrthologs.tsv');
 
 % load species-specific rxns and mets
 rxnsToAdd = importTsvFile('mouseSpecificRxns.tsv');
