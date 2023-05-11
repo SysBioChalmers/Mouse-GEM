@@ -43,6 +43,7 @@ if isequal(rxnAssoc.rxns, mouseGEM.rxns) && isequal(metAssoc.mets, mouseGEM.mets
     exportTsvFile(metAssoc,'../model/metabolites.tsv');
 end
 
+mouseGEM.geneShortNames = mouseGEM.genes;
 save('../model/Mouse-GEM.mat', 'mouseGEM');
 exportYaml(mouseGEM, '../model/Mouse-GEM.yml');
 mouseGEM = annotateGEM(mouseGEM,'../model',{'rxn','met'});  % add annotation data to structure
