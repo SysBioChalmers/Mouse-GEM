@@ -27,7 +27,7 @@ metsToAdd = importTsvFile('mouseSpecificMets.tsv');
 
 %% Generate Mouse-GEM
 [mouseGEM, speciesSpecNetwork, gapfillNetwork]=updateAnimalGEM(...
-    mouseOrthologPairs,rxnsToAdd,metsToAdd,'Mouse-GEM');
+    mouseOrthologPairs,rxnsToAdd,metsToAdd,'Mouse-GEM','true');
 
 
 %% Update annotation files
